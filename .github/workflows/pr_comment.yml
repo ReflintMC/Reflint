@@ -10,7 +10,7 @@
 name: Comment on pull request
 on:
   workflow_run:
-    workflows: ['Build Paper']
+    workflows: ['Build Reflint']
     types: [completed]
 jobs:
   pr_comment:

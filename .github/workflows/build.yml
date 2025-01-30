@@ -4,7 +4,7 @@
 # builds a paperclip jar to be updated in the body
 # of the PR relating to this action.
 
-name: Build Paper
+name: Build Reflint
 on:
   push:
   pull_request:

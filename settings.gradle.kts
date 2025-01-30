@@ -15,17 +15,17 @@ if (!file(".git").exists()) {
     val errorText = """
         
         =====================[ ERROR ]=====================
-         The Paper project directory is not a properly cloned Git repository.
+         The Reflint project directory is not a properly cloned Git repository.
          
-         In order to build Paper from source you must clone
+         In order to build Reflint from source you must clone
          the Paper repository using Git, not download a code
          zip from GitHub.
          
          Built Paper jars are available for download at
-         https://papermc.io/downloads/paper
+         https://reflintmc.github.io
          
-         See https://github.com/PaperMC/Paper/blob/main/CONTRIBUTING.md
-         for further information on building and modifying Paper.
+         See https://github.com/ReflintMC/Reflint
+         for further information on building and modifying Reflint.
         ===================================================
     """.trimIndent()
     error(errorText)
