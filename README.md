@@ -24,7 +24,7 @@ Run the Paperclip jar directly from your server.
 
 Build
 ------
-To compile Flint, you need JDK 21 and an internet connection.
+To compile Reflint, you need JDK 21 and an internet connection.
 
 Clone this repo, run `./gradlew applyPatches`, then `./gradlew createMojmapBundlerJar` from your terminal. 
 
