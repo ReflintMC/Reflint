@@ -3,7 +3,7 @@
 </p>
 
 Reflint [![Version](https://img.shields.io/badge/version-alpha-red?style=flat
-)](https://github.com/ReflintMC/Reflint/releases)
+)](https://github.com/ReflintMC/Reflint/releases) [![Reflint Build Status](https://img.shields.io/github/actions/workflow/status/ReflintMC/Reflint/build.yml?branch=dev)](https://github.com/ReflintMC/Reflint/actions)
 ===========
 
 Just a stable Minecraft server Software
