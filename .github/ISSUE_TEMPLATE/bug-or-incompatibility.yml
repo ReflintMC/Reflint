@@ -9,12 +9,12 @@ body:
       value: |
         Before submitting this issue, please ensure the following:
 
-        1. You are using the latest version of Paper, available on our [our downloads page](https://papermc.io/downloads/paper).
-        2. You have searched to confirm there isn’t [an existing open issue](https://github.com/PaperMC/Paper/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug) on this topic.
-        3. Your version of Minecraft is supported by Paper.
+        1. You are using the latest version of Reflint, available on our [our downloads page](https://github.com/ReflintMC/Reflint/releases).
+        2. You have searched to confirm there isn’t [an existing open issue](https://github.com/ReflintMC/Reflint/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug) on this topic.
+        3. Your version of Minecraft is supported by Reflint.
 
-        If you're unsure whether you've encountered a bug, feel free to ask in the `#paper-help` channel on our
-        [Discord](https://discord.gg/papermc).
+        If you're unsure whether you've encountered a bug, feel free to ask in the `#need-help` channel on our
+        [Discord](https://discord.gg/2TRCbjzdmh).
 
   - type: textarea
     attributes:
@@ -48,7 +48,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Paper version
+      label: Reflint version
       description: |
         Run `/version` on your server and **paste** the full, unmodified output here.
         "latest" is *not* a version; we require the output of `/version` so we can adequately track down the issue.
@@ -59,7 +59,7 @@ body:
         ```
         > version
         [20:34:42 INFO]: Checking version, please wait...
-        [20:34:42 INFO]: This server is running Paper version 1.21-105-master@7e91a2c (2024-07-20T21:04:31Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+        [20:34:42 INFO]: This server is running Reflint version 1.21-105-master@7e91a2c (2024-07-20T21:04:31Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
         [20:34:42 INFO]: You are running the latest version
         [20:34:42 INFO]: Previous version: 1.21-103-aa3b356 (MC: 1.21)
         ```

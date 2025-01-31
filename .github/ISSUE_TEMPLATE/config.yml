@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: "❗Exploits"
-    url: https://discord.gg/papermc
+    url: https://discord.gg/2TRCbjzdmh
     about: |
       Since GitHub doesn’t currently support private issues, exploit reports are managed through our Discord.
-      To report an exploit, please visit the #paper-exploit-report channel.
+      To report an exploit, please visit the #reflint-exploit-report channel.
   - name: "🗨 Questions"
-    url: https://discord.gg/papermc
+    url: https://discord.gg/2TRCbjzdmh
     about: If you have questions or need help with any minor issues, feel free to ask us on our Discord server!

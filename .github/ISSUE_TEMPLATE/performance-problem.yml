@@ -10,15 +10,15 @@ body:
       value: |
         Before submitting this issue, please ensure the following:
 
-        1. You are running the latest version of Paper from [our downloads page](https://papermc.io/downloads/paper).
-        2. You searched for and ensured there isn't already [an open issue](https://github.com/PaperMC/Paper/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug) regarding this.
-        3. Your version of Minecraft is supported by Paper.
+        1. You are running the latest version of Reflint from [our downloads page](https://github.com/ReflintMC/Reflint/releases).
+        2. You searched for and ensured there isn't already [an open issue](https://github.com/ReflintMC/Reflint/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug) regarding this.
+        3. Your version of Minecraft is supported by Reflint.
 
   - type: markdown
     attributes:
       value: |
         Before creating an issue regarding server performance, please consider reaching out for support in the
-        `#paper-help` channel of [our Discord](https://discord.gg/papermc)!
+        `#need-help` channel of [our Discord](https://discord.gg/2TRCbjzdmh)!
 
   - type: input
     attributes:
@@ -26,7 +26,7 @@ body:
       description: |
         Please provide all profiles as links rather than screenshots. Screenshots limit our ability to investigate the root cause of the issue.
 
-        For more information, see our [profiling documentation](https://docs.papermc.io/paper/profiling).
+        For more information, see PaperMC's [profiling documentation](https://docs.papermc.io/paper/profiling).
       placeholder: "Example: https://spark.lucko.me/XsN0hxGfsi"
     validations:
       required: true
@@ -61,7 +61,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Paper version
+      label: Reflint version
       description: |
         Run `/version` on your server and **paste** the full, unmodified output here.
         "latest" is *not* a version; we require the output of `/version` so we can adequately track down the issue.
@@ -72,7 +72,7 @@ body:
         ```
         > version
         [20:34:42 INFO]: Checking version, please wait...
-        [20:34:42 INFO]: This server is running Paper version 1.21-105-master@7e91a2c (2024-07-20T21:04:31Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+        [20:34:42 INFO]: This server is running Reflint version 1.21-105-master@7e91a2c (2024-07-20T21:04:31Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
         [20:34:42 INFO]: You are running the latest version
         [20:34:42 INFO]: Previous version: 1.21-103-aa3b356 (MC: 1.21)
         ```
