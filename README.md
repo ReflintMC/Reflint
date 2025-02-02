@@ -16,7 +16,7 @@ For a Server Owners
 ------
 Paperclip is a jar file that you can download and run just like a normal jar file.
 
-Download Reflint from our [downloads page](https://github.com/ReflintMC/Reflint/releases).
+Download Reflint from our [downloads page](https://reflintmc.github.io/tracker/).
 
 Run the Paperclip jar directly from your server.
 
